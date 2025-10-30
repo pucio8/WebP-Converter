@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.venv/
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+*.spec
+# *.spec jest już w Twoim katalogu, więc możesz go ignorować. Jeśli go edytujesz, to zostaw. 
+# Z Twojego drzewka wynika, że masz WebP-Converter.spec - jeśli go edytujesz, usuń linię *.spec
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs and Documentation
+*.log
+diagrams/*.svg # Jeśli generujesz SVG z tych diagramów

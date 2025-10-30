@@ -11,9 +11,9 @@ Key features include:
 
 ## 🚀 Download & Installation
 
-[![Latest Release](https://img.shields.io/github/v/release/pucio8/convert_app?label=latest%20release)](https://github.com/pucio8/convert_app/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/pucio8/WebP-Converter?label=latest%20release)](https://github.com/pucio8/WebP-Converter/releases/latest)
 
-You can download this application directly from the **Releases** page. Two options are provided:
+You can download this application directly from the **[Releases](https://github.com/pucio8/WebP-Converter/releases/latest)** page. Two options are provided:
 
 * **`Setup WebP-Converter.exe` (Installer)**
     * (Recommended) Download this to install the program on your computer. It will handle setting up shortcuts and file associations.
@@ -21,7 +21,7 @@ You can download this application directly from the **Releases** page. Two optio
 * **`WebP-Converter.exe` (Portable Version)**
     * Download this file if you prefer a standalone application that doesn't require installation. Just run it directly.
 
-**[➡️ Go to the Latest Release page to download](https://github.com/pucio8/convert_app/releases/latest)**
+**[➡️ Go to the Latest Release page to download](https://github.com/pucio8/WebP-Converter/releases/latest)**
 
 ## 🛠️ Installation and Setup
 Prerequisites

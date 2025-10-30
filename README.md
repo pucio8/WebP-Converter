@@ -67,28 +67,6 @@ graph LR
 ## Processing Flow
 
 The conversion process is handled in the following sequence:
-```
-flowchart TD
-    U[User] -->|Launches| M[main.py]
-    M -->|Initializes| GUI[ImageConverterApp]
-    GUI -->|Select Files/Folder| IO[File/Directory Dialogs]
-    GUI -->|Clicks Start| START[Start Compression]
-    START -->|Starts| TH[threading Thread]
-    TH --> RC[run_compression]
-    RC --> CF[core convert_files]
 
-    CF -->|For each file| OPEN[PIL Image open]
-    OPEN --> MODE{Check Mode (RGBA/P)}
-    MODE -- Yes --> CONV[Convert to RGB/A]
-    MODE -- No --> NOCONV[No Change]
-    CONV --> SIZE{Width > max_width}
-    NOCONV --> SIZE
-    SIZE -- Yes --> RESZ[Resize (LANCZOS)]
-    SIZE -- No --> KEEP[No Change]
-    RESZ --> SAVE[Save to WebP (quality)]
-    KEEP --> SAVE
-    SAVE --> OK[Log Success]
-    
-    OK --> GUIUPD[GUI Update Log & Scroll]
-    GUIUPD --> ENABLE[Start Button Active]
-```
+### Processing Flow
+![Processing Flowchart](./diagrams/Flowchart.png)

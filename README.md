@@ -64,9 +64,13 @@ graph LR
 | `Core (Module)` | `image_converter/core.py` | Contains the `convert_files` function with PIL logic (open, convert mode, resize, save to WebP). |
 | `Tooltip` | `image_converter/tooltip.py` | Provides helper messages on hover for UI elements. |
 
-## Processing Flow
-
-The conversion process is handled in the following sequence:
+## Diagrams
 
 ### Processing Flow
 ![Processing Flowchart](./diagrams/Flowchart.png)
+
+### Class Structure
+![Class Diagram](./diagrams/Class%20diagram.png)
+
+### Dependency Graph (Internal)
+![Dependency Diagram](./diagrams/Dependency%20diagram.png)
